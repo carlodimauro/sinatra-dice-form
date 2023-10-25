@@ -1,2 +1,12 @@
 <h1>Dice Roll</h1>
-<%= params %>
+<!-- <%= params %> -->
+
+<form action="/process_roll">
+<label for="diceform">Number of dice to roll?</label>
+<input id="diceform" type="text" name="no_of_dice">
+</br></br>
+<label for="sidesform">Number of sides per die?</label>
+<input id="sidesform" type="text" name="no_of_sides">
+</br></br>
+<button>Roll!</button>
+</form>
